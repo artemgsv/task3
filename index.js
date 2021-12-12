@@ -34,6 +34,6 @@ app
   })
   .all("/login", (r) => r.res.send("leontevaira98"))
   .listen(process.env.PORT || 3000, () => {
-    time = "time";
+    const time = "time";
     console.log("Server is working");
   });
